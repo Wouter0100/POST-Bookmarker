@@ -3,7 +3,7 @@
 
 	"name": "POST Bookmarker",
 	"description": "A Chrome extension to bookmark pages with POST payload.",
-	"version": "1.0",
+	"version": "1.1",
 
     "icons": { "128": "assets/img/icon.png" },
 
