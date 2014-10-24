@@ -1,0 +1,25 @@
+{
+	"manifest_version": 2,
+
+	"name": "POST Bookmarker",
+	"description": "A Chrome extension to bookmark pages with POST payload.",
+	"version": "1.0",
+
+    "icons": { "128": "assets/img/icon.png" },
+
+	"permissions": [
+        "bookmarks",
+        "contextMenus",
+        "webRequest",
+        "<all_urls>"
+	],
+
+    "options_page": "options.html",
+
+	"background": {
+		"scripts": [
+            "assets/js/jquery.js",
+            "assets/js/background.js"
+        ]
+	}
+}
